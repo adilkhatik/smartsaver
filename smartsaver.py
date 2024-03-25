@@ -109,8 +109,8 @@ class ProductTracker:
     def send_email(self, subject, body, dist_email):
         SMTP_SERVER = "smtp.gmail.com"
         PORT = 587
-        EMAIL_ID = "itsmyself024@gmail.com"  # Update with your email
-        PASSWORD = "odkedjlcirbxfaie"  # Update with your email password
+        EMAIL_ID = ""  # Update with your email
+        PASSWORD = ""  # Update with your email password
         try:
             if not self.is_valid_email(dist_email):
                 print("Invalid email address. Email not sent.")
